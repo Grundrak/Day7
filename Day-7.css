@@ -15,11 +15,11 @@ main{
 
 }
 #glass, h1 {
-    color: #424345;
+    color: #ffffff;
 }
 .main-grid{
     display: grid;
-    height: 180vh;
+    height: 200vh;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(5,1fr);
     row-gap: 10px;
@@ -32,7 +32,7 @@ main{
 }
 #c1{
     width:914px;
-    height:300px ;
+    height:450px ;
 }
 .c2{
     grid-row:2/3;
