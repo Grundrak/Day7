@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 *{
     margin: 0 ;
     padding: 0;
@@ -9,7 +11,6 @@ nav{
 }
 main{
     padding: 20%;
-
     background-image: url(https://i.pinimg.com/originals/2d/97/4d/2d974d71915c2bf72d30ef60f8731267.gif);
     background-size: cover;
 
@@ -34,6 +35,14 @@ main{
     width:914px;
     height:450px ;
 }
+.c1::before{
+    content: "Welcome to the show";
+    color: black;
+    position: absolute;
+    font-family: 'Cherry Bomb One', cursive;
+    top: 393px;
+    right:644px ;
+    font-size:2rem ;}
 .c2{
     grid-row:2/3;
     grid-column: 1/3;
@@ -48,16 +57,30 @@ main{
 }
 #c3{
     width:606px;
-    height:250px ;
-}
+    height:250px ;}
+    .c3::before{
+        content: "Jujutsu Kaisen";
+        color: black;
+        position: absolute;
+        font-family: 'Cherry Bomb One', cursive;
+        top: 900px;
+        right:700px;
+        font-size:2rem ;}
 .c4{
     grid-row:3/4;
     grid-column: 1/5;
 }
 #c4{
     width:601px;
-    height:250px ;
-}
+    height:250px ;}
+.c4::before{
+        content: "Demon Slayer";
+        color: black;
+        position: absolute;
+        font-family: 'Cherry Bomb One', cursive;
+        top: 1273px;
+        right:726px;
+        font-size:2rem ;}
 .c5{
     grid-row:4/5;
     grid-column: 1/3;
@@ -78,6 +101,14 @@ main{
     grid-row:3/5;
     grid-column: 5/7;
 }
+.c7::before{
+    content: "One Piece";
+    color: black;
+    position: absolute;
+    font-family: 'Cherry Bomb One', cursive;
+    top: 1100px;
+    right:396px ;
+    font-size:2rem ;}
 #c7{
     width:298px;
     height:578px ;}
@@ -87,13 +118,86 @@ main{
 }
 #c8{
     width:450px;
-    height:290px ;}
+    height:290px ;
+}
 .c9{
     grid-row:5/6;
     grid-column:4/7 ;
 }
+.c9::before{
+    content: "Haikyuu!!";
+    color: black;
+    position: absolute;
+    font-family: 'Cherry Bomb One', cursive;
+    top: 1700px;
+    right:424px;
+    font-size:3rem ;}
 #c9{
     width:450px;
     height:290px ;}
+.barre-like-1{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 30px;
 
+    gap:1em;
+    border-radius: 10px;
+    top: 1020px;
+    right:315px ;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+.barre-like-2{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    gap:1em;
+    top: 1613px;
+    right:376px ;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
 
+.read-more-1{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    top: 1294px;
+    right: 625px;
+    color: #ffffff;
+}
+.barre-like-3{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    gap:1em;
+    border-radius: 10px;
+    top: 1926px;
+    right:473px ;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1em;
+}
+.read-more-2{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    top: 1937px;
+    right: 792px;
+    color: #ffffff;
+    font-size: 1em;
+}
